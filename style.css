@@ -20,14 +20,14 @@
     display: flex;
     justify-content: flex-start;
     width: 100%;
-    height: 700px;
+    height: 650px;
     background-color: black;
 }
 
 .main .bgcolorb {
     width: 25%;
-    height: 700px;
-    background-color: rgb(147, 141, 231);
+    height: 650px;
+    background-color: rgb(179, 179, 179);
 }
 
 .main .bgcolorb .text-search {
@@ -35,24 +35,46 @@
     justify-content: flex-start;
 }
 
-.main .bgcolorb .search {
+.main .bgcolorb .text-search .search {
     margin-top: 10px;
-    width: 80%;
+    margin-left: 15px;
+    width: 90%;
     height: 30px;
-    background-color: white;
+}
+
+.main .bgcolorb .link-tutor {
+    padding-left: 10px;
+    font-size: 15px;
 }
 
 .main .content {
     width: 75%;
-    height: 700px;
-    background-color: rgb(120, 70, 235);
+    height: 650px;
+    background-color: rgb(226, 225, 225);
+}
+
+.main .content .title-site {
+    margin-top: 12px;
+    text-align: center;
+}
+
+.main .content h4 {
+    margin-left: 20px;
+}
+
+.main .content p {
+    margin-left: 40px;
+}
+
+.main .content ul {
+    margin-left: 40px;
 }
 
 .footer {
     display: flex;
     justify-content: center;
     width: 100%;
-    height: 30px;
+    height: 35px;
     background-color: black;
     text-align: center;
 }
