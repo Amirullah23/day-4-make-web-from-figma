@@ -1,0 +1,37 @@
+/* body {
+    background-color: rgb(59, 51, 172);
+} */
+
+.collapse {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.navbar {
+    background-color: #784eeb;
+}
+
+.navbar-brand {
+    font-size: 24px;
+}
+
+.nav-item {
+    font-size: 20px;
+    margin-left: 70px;
+}
+
+.bgcolorb {
+    width: 25%;
+    height: 900px;
+    background-color: rgb(95, 86, 221);
+}
+
+.main {
+    margin-top: -900px;
+    float: right;
+    width: 75%;
+    height: 900px;
+    background-color: rgb(120, 70, 235);
+}
+
+.search {}
